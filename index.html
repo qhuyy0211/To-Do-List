@@ -4,20 +4,106 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do List</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-7.3.1-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="app">
-    <main id="content">
+    <main id="main">
       <header id="header">
         <div class="header__info">
           <h4 class="header__heading">Tasks</h4>
           <h6 class="header__subheading">2 tasks remaining</h6>
         </div>
         <div class="header__mode">
-          
+          <div class="header__btn">
+            <i class="header__icon header__icon--light fa-regular fa-sun"></i>
+            <i class="header__icon header__icon--dark fa-regular fa-moon"></i>
+          </div>
         </div>
       </header>
+      <section id="control" class="card">
+        <div class="control__btn control__btn--left">
+          <i class="control__icon fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="control-main">
+          <i class="control-main__icon fa-regular fa-calendar"></i>
+          <p class="control-main__text">Sunday, Sep 13</p>
+          <span class="control-main__status">(Today)</span>
+        </div>
+        <div class="control__btn control__btn--right">
+          <i class="control__icon fa-solid fa-chevron-right"></i>
+        </div>
+      </section>
+      <section id="create" class="card">
+        <input type="text" placeholder="What need to be done?" class="create__input">
+        <div class="create__btn disabled">
+          <i class="create__icon fa-solid fa-plus"></i>
+        </div>
+      </section>
+      <section id="content" class="card">
+        <ul class="option">
+          <li class="option__item active">All</li>
+          <li class="option__item">Actived</li>
+          <li class="option__item">Completed</li>
+        </ul>
+        <div class="content__group">
+          <div class="content__heading">
+            <span>WORK</span>
+            <div class="content__heading-edit">
+              <i class="content__heading-icon fa-solid fa-pen"></i>
+            </div>
+          </div>
+          <ul class="content__list">
+            <li class="content__item active">
+              <!-- class active: content__item active -->
+              <div class="content__item-status">
+                <i class="content__item__icon fa-solid fa-check"></i>
+              </div>
+              <div class="content__info">Design a minimalist to-do app</div>
+              <div class="content__delete">
+                <i class="content__delete-icon fa-regular fa-trash-can"></i>
+              </div>
+            </li>
+            <li class="content__item">
+              <!-- class active: content__item active -->
+              <div class="content__item-status">
+                <i class="content__item__icon fa-solid fa-check"></i>
+              </div>
+              <div class="content__info">Design a minimalist to-do app</div>
+              <div class="content__delete">
+                <i class="content__delete-icon fa-regular fa-trash-can"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="content__group">
+          <div class="content__heading">
+            <span>SHOPPING</span>
+            <div class="content__heading-edit">
+              <i class="content__heading-icon fa-solid fa-pen"></i>
+            </div>
+          </div>
+          <ul class="content__list">
+            <li class="content__item">
+              <!-- class active: content__item active -->
+              <div class="content__item-status">
+                <i class="content__item__icon fa-solid fa-check"></i>
+              </div>
+              <div class="content__info">Buy groceries</div>
+              <div class="content__delete">
+                <i class="content__delete-icon fa-regular fa-trash-can"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   </div>
 </body>
+<script src="assets/js/main.js"></script>
 </html>
