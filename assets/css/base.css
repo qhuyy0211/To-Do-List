@@ -19,9 +19,11 @@
 [data-theme="dark"] {
   --background-color: #09090b;
   --card-color: #18181b;
+  --sub-btn-color: #27272a;
   --text-color: #fafafa;
   --text-sub-color: #a1a1aa;
   --btn-color: #fafafa;
+  --text-on-btn-color: #18181b;
   --hover-color: #27272a;
   --border-color: #3f3f46;
 }

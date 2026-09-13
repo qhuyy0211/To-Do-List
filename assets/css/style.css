@@ -64,6 +64,14 @@ html {
   color: var(--text-color);
 } 
 
+.header__btn.active .header__icon.header__icon--light {
+  display: block;
+}
+
+.header__btn.active .header__icon.header__icon--dark {
+  display: none;
+}
+
 .header__icon.header__icon--dark {
   transform: rotate(346deg);
 }
@@ -139,6 +147,7 @@ html {
   width: 100%;
   align-self: stretch;
   border-radius: inherit;
+  background-color: var(--card-color);
   color: var(--text-color);
 }
 

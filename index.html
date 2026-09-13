@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,41 +47,11 @@
       </section>
       <section id="content" class="card">
         <ul class="option">
-          <li class="option__item active">All</li>
-          <li class="option__item">Actived</li>
-          <li class="option__item">Completed</li>
+          <li class="option__item active" data-status="all">All</li>
+          <li class="option__item" data-status="active">Active</li>
+          <li class="option__item" data-status="completed">Completed</li>
         </ul>
-        <div class="content__group">
-          <div class="content__heading">
-            <span>WORK</span>
-            <div class="content__heading-edit">
-              <i class="content__heading-icon fa-solid fa-pen"></i>
-            </div>
-          </div>
-          <ul class="content__list">
-            <li class="content__item active">
-              <!-- class active: content__item active -->
-              <div class="content__item-status">
-                <i class="content__item__icon fa-solid fa-check"></i>
-              </div>
-              <div class="content__info">Design a minimalist to-do app</div>
-              <div class="content__delete">
-                <i class="content__delete-icon fa-regular fa-trash-can"></i>
-              </div>
-            </li>
-            <li class="content__item">
-              <!-- class active: content__item active -->
-              <div class="content__item-status">
-                <i class="content__item__icon fa-solid fa-check"></i>
-              </div>
-              <div class="content__info">Design a minimalist to-do app</div>
-              <div class="content__delete">
-                <i class="content__delete-icon fa-regular fa-trash-can"></i>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="content__group">
+        <!-- <div class="content__group">
           <div class="content__heading">
             <span>SHOPPING</span>
             <div class="content__heading-edit">
@@ -90,7 +60,6 @@
           </div>
           <ul class="content__list">
             <li class="content__item">
-              <!-- class active: content__item active -->
               <div class="content__item-status">
                 <i class="content__item__icon fa-solid fa-check"></i>
               </div>
@@ -100,10 +69,11 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> -->
       </section>
     </main>
   </div>
 </body>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/content.js"></script>
 </html>
