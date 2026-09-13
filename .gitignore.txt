@@ -1,0 +1,26 @@
+# Build directories
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+# Database / cache
+*.db
+*.opendb
+*.VC.db
+ipch/
+# Debugging & intermediate files
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+# Windows junk
+Thumbs.db
+Desktop.ini
