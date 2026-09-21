@@ -1,0 +1,63 @@
+{
+  "config": {
+    "theme": "dark",
+    "status": "all"
+  },
+  "heading": [
+    {
+      "id": "1",
+      "content": "WORK"
+    },
+    {
+      "id": "2",
+      "content": "SHOPPING"
+    },
+    {
+      "content": "STUDY CODE",
+      "id": "mOYww3HHq3U"
+    },
+    {
+      "content": "STUDY ENGLISH",
+      "id": "vTHv_VFJLMw"
+    }
+  ],
+  "info": [
+    {
+      "id": "1",
+      "group-id": 1,
+      "status": "available",
+      "content": "Read the aesthetics guidelines"
+    },
+    {
+      "id": "2",
+      "group-id": 1,
+      "status": "available",
+      "content": "Design a minimalist to-do app"
+    },
+    {
+      "id": "4",
+      "group-id": 2,
+      "status": "available",
+      "content": "Buy foods"
+    },
+    {
+      "group-id": "mOYww3HHq3U",
+      "status": "available",
+      "content": "Learn Javascript",
+      "id": "Lxo8irUuCUg"
+    },
+    {
+      "group-id": "mOYww3HHq3U",
+      "status": "available",
+      "content": "Learn Python",
+      "id": "rrBtrsvfuBA"
+    },
+    {
+      "group-id": "vTHv_VFJLMw",
+      "status": "available",
+      "content": "Learn 50 Vocabulary",
+      "id": "RyjLtwvHyn4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
